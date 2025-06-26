@@ -35,6 +35,10 @@ export function Tutorial4() {
       animate={{
         background,
       }}
+      transition={{
+        duration: 1,
+        ease: "easeInOut",
+      }}
       className="w-full min-h-screen flex items-center justify-center"
     >
       <div className="flex flex-col gap-10 max-w-4xl mx-auto py-40">
