@@ -1,9 +1,9 @@
-import { Tutorial5 } from "./motion";
+import { Tutorial6 } from "./motion";
 
 function App() {
   return (
     <>
-      <Tutorial5 />
+      <Tutorial6 />
     </>
   );
 }
