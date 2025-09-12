@@ -2,7 +2,7 @@ import { stagger } from "motion";
 import { motion, useAnimate } from "motion/react";
 import { useEffect } from "react";
 
-export const Tutorial6 = () => {
+export const AnimationSequences = () => {
   const [scope, animate] = useAnimate();
   const text =
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi exercitationem eos molestias excepturi repellat numquam magnam. Dolorum voluptas optio facere fugit nobis voluptate deserunt exercitationem praesentium porro. Vel, totam corporis.";

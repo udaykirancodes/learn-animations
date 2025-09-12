@@ -1,17 +1,7 @@
-import { Tutorial1 } from "./tutorial-1";
-import { Tutorial2 } from "./tutorial-2";
-import { Tutorial3 } from "./tutorial-3";
-import { Tutorial4 } from "./tutorial-4";
-import { Tutorial5 } from "./tutorial-5";
-import { Tutorial6 } from "./tutorial-6";
-import { Tutorial7 } from "./tutorial-7";
-
-export {
-  Tutorial1,
-  Tutorial2,
-  Tutorial3,
-  Tutorial4,
-  Tutorial5,
-  Tutorial6,
-  Tutorial7,
-};
+export * from "./1-motion-basics";
+export * from "./2-exit-animations";
+export * from "./3-variants";
+export * from "./4-hooks";
+export * from "./5-layouts";
+export * from "./6-animation-sequences";
+export * from "./7-animation-sequences";

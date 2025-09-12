@@ -21,7 +21,7 @@ const useOutsideClick = (callback: () => void) => {
   return ref;
 };
 
-export const Tutorial5 = () => {
+export const Layouts = () => {
   const [current, setCurrent] = useState<Card | null>(null);
   const ref = useOutsideClick(() => setCurrent(null));
   return (

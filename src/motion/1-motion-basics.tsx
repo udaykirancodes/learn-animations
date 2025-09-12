@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-export const Tutorial1 = () => {
+export const BasicsOfMotion = () => {
   return (
     <div
       className="[perspective::10px]  h-screen w-full bg-neutral-950 flex items-center justify-center"

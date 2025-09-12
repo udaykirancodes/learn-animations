@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 
-export const Tutorial2 = () => {
+export const ExitAnimations = () => {
   return (
     <div className="h-screen w-full flex items-center justify-center">
       <Card />

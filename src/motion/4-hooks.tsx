@@ -9,7 +9,7 @@ import {
 } from "motion/react";
 import type React from "react";
 import { useRef, useState } from "react";
-export function Tutorial4() {
+export function Hooks() {
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({

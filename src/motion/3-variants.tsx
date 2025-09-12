@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useState } from "react";
 
-export const Tutorial3 = () => {
+export const Variants = () => {
   const [open, setOpen] = useState(true);
   const sidebarVariant = {
     open: {
