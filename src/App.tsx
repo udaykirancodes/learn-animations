@@ -1,5 +1,12 @@
+import { SVGLines } from "./svg/svg-lines";
+
 function App() {
-  return <>Learn Animations</>;
+  return (
+    <>
+      <SVGLines />
+      {/* <BellIcon /> */}
+    </>
+  );
 }
 
 export default App;
