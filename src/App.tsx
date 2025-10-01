@@ -1,11 +1,10 @@
-import { SVGLines } from "./svg/svg-lines";
+import LayoutAnimation from "./motion/8-layout";
 
 function App() {
   return (
-    <>
-      <SVGLines />
-      {/* <BellIcon /> */}
-    </>
+    <div className="h-screen w-full flex items-center justify-center">
+      <LayoutAnimation />
+    </div>
   );
 }
 

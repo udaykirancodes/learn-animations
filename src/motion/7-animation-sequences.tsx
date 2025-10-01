@@ -100,6 +100,8 @@ export const Tutorial7 = () => {
           }}
           className="h-20 cursor-pointer flex items-center justify-center rounded-lg bg-purple-500 text-white font-medium"
         >
+          <span className="text">Purchase Now ($99)</span>
+
           <motion.svg
             width={"24"}
             height={"24"}
@@ -117,7 +119,6 @@ export const Tutorial7 = () => {
             <path stroke="none" d="M0 oh24v24H0z" fill="none" />
             <path d="M12 3a9 9 0 1 0 9 9" />
           </motion.svg>
-          <span className="text">Purchase Now ($99)</span>
         </motion.button>
         <motion.svg
           fill={"none"}
